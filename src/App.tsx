@@ -1,12 +1,14 @@
 import { useUserStore } from "./store"
+import TopBar from "./components/TopBar";
 
 function App() {
 
-  const userStore = useUserStore();
-  console.log(userStore)
+  // const {username , email ,setUsername , setEmail} = useUserStore();
+  
   return (
     <>
-    <p>{userStore.username}</p>
+
+    <TopBar/>
     </>
   )
 }
