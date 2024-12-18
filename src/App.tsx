@@ -1,5 +1,6 @@
 import { useUserStore } from "./store"
 import TopBar from "./components/TopBar";
+import FormElement from "./components/Form";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
 
     <TopBar/>
+    <FormElement/>
     </>
   )
 }
